@@ -1,6 +1,20 @@
 'use strict'
 // 1行目に記載している 'use strict' は削除しないでください
 
+//　初期値
+let dog_name
+dog_name = "てて"
+const title = document.getElementById('title');
+title.innerHTML = `${dog_name}の部屋🐶`
+
+//　名前を変更させる
+function nameChange() {
+  dog_name = document.getElementById("after_name").value;
+  title.innerHTML = `${dog_name}の部屋🐶`
+}
+
+
+
 const start = document.getElementById('start'); // 開始ボタン
 const TaeTae = document.getElementById('taetae');
 
@@ -132,3 +146,8 @@ btnAddCome.addEventListener("click", addCount);
 const btnAddTurn = document.getElementById('turn');
 btnAddTurn.addEventListener("click", addCount);
 
+//おはなみボタンを押すと背景がピンクになる
+ohanamibotan.addEventListener("click", PINKPINKPINK);
+function PINKPINKPINK(){
+  document.body.style.backgroundColor = 'pink';
+}
