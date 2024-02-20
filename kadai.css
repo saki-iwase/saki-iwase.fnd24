@@ -1,42 +1,32 @@
-body{
+body {
   background-color: rgb(170, 238, 196) ;
+  font-size: 30px;
+  font-weight: bold;
+  color: papayawhip;
   text-align: center;
 }
 
-
-#divleft {background-color: papayawhip;
+#divleft {
+  background-color: papayawhip;
   width: 600px;
   height: 250px;
   margin: 0 auto;
   text-align: center;
+  top: 30px;
 }
 
-#divzoom {background-color: papayawhip;
+#divzoom {
+  background-color: papayawhip;
   width: 600px;
-  height: 100px;
   margin: 0 auto;
+  font-size: 15px;
+  color: rgb(71, 80, 184);
+  font-weight: bold;
   text-align: center;
 }
 
-#dogrun{
+#dog-run{
   position: absolute;
   top: 100px;
-  right : 50px;
-
-
+  right : 100px;
 }
-
-/* #image {animation: anim 1s;
-}
-
-@keyframes anim {
-  0% {
-  transform: translateX(0px);
-  }
-
-  100% {
-  transform: translateX(300px);
-  }
-}
-  */
-
